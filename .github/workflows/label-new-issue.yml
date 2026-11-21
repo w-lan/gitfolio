@@ -6,7 +6,7 @@ on:
 
 jobs:
   label-issues:
-    runs-on: ubuntu-26
+    runs-on: ubuntu-latest
     permissions: 
       issues: write
       contents: read
